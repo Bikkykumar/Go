@@ -12,6 +12,8 @@ public class HelloWorld extends Application{
 	
 	public void init() {
 		pane = new GridPane();
+		
+		//aa greeting 
 		label = new Label("Hello world");
 		pane.getChildren().addAll(label);
 	}
